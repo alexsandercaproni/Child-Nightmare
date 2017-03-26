@@ -47,18 +47,23 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\Camera\FlashCamera.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyAttack.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyMovement.cs" />
+     <Compile Include="Assets\Scripts\Enemy\FireAttack.cs" />
      <Compile Include="Assets\Scripts\Managers\CongratsManager.cs" />
      <Compile Include="Assets\Scripts\Managers\EnemyManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\EntretelasManager.cs" />
      <Compile Include="Assets\Scripts\Managers\GameOverManager.cs" />
      <Compile Include="Assets\Scripts\Managers\MenuButtonManager.cs" />
      <Compile Include="Assets\Scripts\Managers\ScoreManager.cs" />
      <Compile Include="Assets\Scripts\Managers\ToGame.cs" />
+     <Compile Include="Assets\Scripts\Others\spawnFire.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerShooting.cs" />
+     <None Include="Assets\Materials\AdditiveTintable.shader" />
      <None Include="Assets\Fonts\LuckiestGuy\LICENSE.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
